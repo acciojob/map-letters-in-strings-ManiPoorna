@@ -11,5 +11,5 @@ function mapLetters(word) {
 	for (let i = 0; i < word.length; i++) {
 		ansObj[`${word[i]}`].push(i);
 	}
-	return ansObj
+	return JSON.stringify(ansObj);
 }
